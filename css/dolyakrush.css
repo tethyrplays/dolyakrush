@@ -185,14 +185,18 @@ a:hover {
 
 #about {
   background-image: url("../images/Concept20.png");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: black;
 }
 
 #resources {
   background-image: url("../images/Concept16.png");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: black;
 }
