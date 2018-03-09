@@ -4,6 +4,31 @@ html, body {
   margin: 0;
 }
 
+/* HYPERLINK COLORS */
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B61E84;
+  text-decoration: none;
+}
+
+#page2 a {
+  color: #B61E84;
+  text-decoration: none;
+}
+
+#page2 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* PAGE 1 */
+
 #page1 {
 
   font-family: 'Saira Semi Condensed', sans-serif;
@@ -21,7 +46,17 @@ html, body {
   max-width: 800px;
 }
 
-.agwguild, .dolyakrushlogo {
+#page1 .agwguild-level {
+  font-size: .5em;
+  color: white;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: black;
+  padding: 3px 12px 3px 12px;
+  text-transform: uppercase;
+}
+
+#page1 .agwguild, #page1 .dolyakrushlogo {
   margin-bottom: 32px;
 }
 
@@ -37,29 +72,10 @@ html, body {
   max-width: 1024px;
   height: auto;
 }
-.agwguild-level {
-  font-size: .5em;
-  color: white;
-  display: inline-block;
-  border: 1px solid black;
-  background-color: black;
-  padding: 3px 12px 3px 12px;
-  text-transform: uppercase;
-}
 
 .morelink {
   margin-top: 60px;
   text-transform: uppercase;
-}
-
-.morelink a {
-  color: black;
-  text-decoration: none;
-}
-
-.morelink a:hover {
-  color: #B61E84;
-  text-decoration: none;
 }
 
 #page2 {
@@ -78,6 +94,25 @@ html, body {
   background-size: cover;
 }
 
+#page2 .agwguild-level, #page2 .agwguild-location {
+  color: white;
+  display: inline-block;
+  padding: 3px 12px 3px 12px;
+  text-transform: uppercase;
+}
+
+#page2 .agwguild-level {
+  background-color: black;
+}
+
+#page2 .agwguild-location {
+  background-color: #B61E84;
+}
+
+#page2 h1 {
+  margin-bottom: 1.6em;
+}
+
 .page2info {
   min-width: 100%;
   height: auto;
@@ -88,6 +123,23 @@ html, body {
   background-color: rgba(255,255,255,0.8);
   padding: 30px 30px 30px 30px;
 }
+
+.account-info {
+  margin: auto;
+  margin-bottom: 1em;
+  width: 80%;
+}
+
+.account-id {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.account-title {
+  font-size: .8em;
+  font-style: italic;
+}
+
 
 #disclaimer {
 
