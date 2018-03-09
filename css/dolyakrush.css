@@ -57,6 +57,7 @@ a:hover {
 
 #splash .agwguild, #splash .dolyakrushlogo {
   margin-bottom: 32px;
+  white-space: nowrap;
 }
 
 .agwguild img {
