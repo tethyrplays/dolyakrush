@@ -16,12 +16,26 @@ html, body {
 
 }
 
+#page1 .content {
+  width: 60%;
+  max-width: 800px;
+}
+
 .agwguild, .dolyakrushlogo {
   margin-bottom: 32px;
 }
 
 .agwguild img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
   margin-bottom: 12px;
+}
+
+.dolyakrushlogo img {
+  width: 100%;
+  max-width: 1024px;
+  height: auto;
 }
 .agwguild-level {
   font-size: .5em;
