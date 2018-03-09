@@ -186,7 +186,6 @@ a:hover {
 
 #about {
   background-image: url("../images/Concept20.png");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,7 +194,6 @@ a:hover {
 
 #resources {
   background-image: url("../images/Concept16.png");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
